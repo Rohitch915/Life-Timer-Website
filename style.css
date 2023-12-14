@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width:100vw;
+    background-image: url('mountain.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top:35%;
+    left:22%;
+    font-weight: bold;
+}
+.result-1{
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    top:50%;
+    left:27%;
+    font-weight: bold;
+   
+}
+.result-2{
+    position: absolute;
+    top:47%;
+    left:27%;
+    height: 100px;
+    width:780px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.flex-part{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+   
+}
+.time{
+   font-size: 60px;
+   text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 8px black;
+}
+.flex-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.dob-setting{
+    position: absolute;
+   bottom: 20px;
+    font-size: 50px;
+    right: 40px;
+    display: flex;
+    justify-content: center;
+   
+  
+    
+}
+.item{
+    margin: 0px 10px;
+}
+.fa-cog{
+    color:white;
+    cursor: pointer;
+}
+.date{
+    height: 40px;
+    width: 150px;
+    padding: 8px;
+    font-size: 16px;
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+.hidden{
+  display: none;
+  
+}
